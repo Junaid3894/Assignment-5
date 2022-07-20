@@ -1,0 +1,17 @@
+/*Write a program to print the first N even natural numbers in reverse order0*/
+#include<stdio.h>
+int main()
+{
+int n;
+int i;
+printf("Enter the nth numbers which you want to see :");
+scanf("%d",&n);
+// start loop from 1 and increment it by 1 in each iteration till i is 1
+for(i=n*2;i>=1;i--){
+    if(i%2==0){
+        printf("%d\n",i);
+    }
+}
+
+return 0;
+}
