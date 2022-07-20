@@ -1,0 +1,17 @@
+/*Write a program to print the first N odd natural numbers in reverse order.*/
+#include<stdio.h>
+int main()
+{
+int n;
+int i;
+printf("Enter the nth numbers which you want to see :");
+scanf("%d",&n);
+// start loop counters from 10,decrement by 1 in each iteration till i will 1
+for(i=n*2;i>=1;i--){
+    if(i%2){
+        printf("%d\n",i);
+    }
+}
+
+return 0;
+}
