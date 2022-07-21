@@ -1,0 +1,18 @@
+/*Write a program to print cubes of the first N natural numbers*/
+#include<stdio.h>
+int main()
+{
+int n;
+int i;
+int cubes;
+// Input how many cubes n you want to see
+printf("Enter the n :");
+scanf("%d",&n);
+// start loop from  1 and increment it by 1 in each iteration till n
+for(i=1;i<=n;i++){
+    cubes=i*i*i;
+    printf("%d\n",cubes);
+
+}
+return 0;
+}
